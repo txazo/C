@@ -5,8 +5,10 @@ static void my_exit_1(void);
 
 static void my_exit_2(void);
 
+/**
+ * atexit(): 注册终止函数
+ */
 int main(int argc, char *argv[]) {
-    // 注册终止函数
     atexit(my_exit_1);
     atexit(my_exit_2);
     printf("main is done\n");

@@ -3,9 +3,4 @@ project(C)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES
-        process/main.c
-        process/atexit.c
-        process/alloc.c)
-
-add_executable(C process/alloc.c)
+add_executable(C main.c)

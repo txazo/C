@@ -16,5 +16,5 @@ int main(int argc, char *argv[]) {
     address = realloc(address, 32);
     printf("address: %p\n", address);
 
-    exit(0);
+    return 0;
 }
