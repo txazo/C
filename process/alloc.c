@@ -6,6 +6,8 @@
  *
  * malloc
  * realloc
+ *
+ * Java: 自动内存分配、Unsafe.allocateMemory()
  */
 int main(int argc, char *argv[]) {
     void *address = (char *) malloc(16);

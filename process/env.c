@@ -5,6 +5,8 @@ static void printEnv(char *name);
 
 /**
  * 环境变量
+ *
+ * Java: System.getenv()
  */
 int main(int argc, char *argv[]) {
     printEnv("PATH");

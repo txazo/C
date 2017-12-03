@@ -7,6 +7,8 @@ static void my_exit_2(void);
 
 /**
  * atexit(): 注册终止函数
+ *
+ * Java: Runtime.addShutdownHook()
  */
 int main(int argc, char *argv[]) {
     atexit(my_exit_1);

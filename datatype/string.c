@@ -3,6 +3,8 @@
 
 /**
  * 字符串
+ *
+ * Java: String
  */
 int main(int argc, char *argv[]) {
     char name[] = "root";

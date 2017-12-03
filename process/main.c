@@ -3,6 +3,8 @@
 
 /**
  * main函数标准格式
+ *
+ * Java: public static void main(String[] args)
  */
 int main(int argc, char *argv[]) {
     for (int i = 0; argv[i] != NULL; i++) {

@@ -2,6 +2,8 @@
 
 /**
  * scanf(): 输入
+ *
+ * Java: System.in.read()
  */
 int main(int argc, char *argv[]) {
     char name[10];
