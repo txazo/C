@@ -13,7 +13,7 @@ static void test5(void);
 static void test6(void);
 
 /**
- * 栈上局部变量
+ * 变量
  */
 int main(int argc, char *argv[]) {
     char a = '1';
