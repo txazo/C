@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#define MSG "String"
+
 /**
  * 字符串
  *
@@ -19,5 +21,15 @@ int main(int argc, char *argv[]) {
     // 字符串长度
     printf("String Length: %lu\n", strlen(name));
     printf("Memory Size: %zd\n", sizeof(name));
+
+    // MSG: 字符串字面量
+    // 静态存储区的字符串拷贝到数组
+    char array[] = MSG;
+    // 字符串的地址赋值给指针
+    char *p = MSG;
+    printf("%p\n", array);
+    printf("%p\n", p);
+    printf("%p\n", MSG);
+
     return 0;
 }
