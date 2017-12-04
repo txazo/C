@@ -11,6 +11,8 @@ set(SOURCE_FILES
         datatype/union.c
         grammar/address.c
         grammar/define.c
+        grammar/include.h
+        grammar/include.c
         grammar/pointer.c
         grammar/sizeof.c
         grammar/variable.c
@@ -18,6 +20,7 @@ set(SOURCE_FILES
         io/file_copy.c
         io/getchar.c
         io/scanf.c
+        memory/align.c
         memory/alloc.c
         memory/memory.c
         process/atexit.c
